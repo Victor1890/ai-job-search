@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Victor Rosario
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Victor Rosario, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,76 +13,87 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Victor Rosario
+- **Email:** hello@victorrosario.dev
+- **Phone:** +1 849 753-5677
+- **LinkedIn:** https://www.linkedin.com/in/victor-j-rosario-v
+- **GitHub:** https://github.com/Victor1890
+- **Website:** https://www.victorrosario.dev
+- **Location:** Dominican Republic (Remote-friendly preferred)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
-  <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
-  working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
-  undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
-  lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
-  04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
-
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+  | Spanish | Native |
+  | English | Professional Working Proficiency |
+- **CV language:** English
+- **Status:** Employed, seeking remote/freelance opportunities
+- **LinkedIn headline:** "Software Engineer with expertise in React, Next.js, Node.js, TypeScript, SQL, Python, Generative AI & LLM Integration"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Associate of Science in Computer Software Engineering** (2018-2022) - ITLA (Technological Institute of the Americas)
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Frontend Developer** (09/2023 - Present) - **National Competitiveness Council** (Dominican Republic)
+  - Own development of large-scale citizen-facing web platforms from technical planning through production deployment
+  - Design and evolve frontend architecture using React, Zustand, React Query for scalability
+  - Integrate AI-powered features using Claude and OpenAI APIs, reducing manual user interactions by ~40%
+  - Contributed to platforms: gob.do, Registro de Cuenta Única, citas.conadis.gob.do, internal Meetings system
+
+- **Full-Stack Developer** (09/2021 - 09/2023) - **Media Revolution, SRL** (Dominican Republic)
+  - Developed end-to-end web applications using React, Node.js, PostgreSQL
+  - Led content migration from WordPress to Contentful with automation scripts
+  - Integrated AI services to automate content generation and transformation workflows
+  - Implemented backend orchestration for AI requests with prompt handling and error management
+
+- **Software Developer** (11/2020 - 03/2021) - **Yo Navego Seguro** (Dominican Republic)
+  - Modernized legacy codebases to align with JavaScript and Node.js best practices
+  - Improved system performance and availability through optimization and refactoring
+
+- **Website Developer** (07/2020 - 11/2020) - **Marena Beach Residences** (Dominican Republic)
+  - Built responsive, SEO-optimized websites using HTML, JavaScript, Node.js, SQL
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** JavaScript/TypeScript, React, Next.js, Node.js, PostgreSQL, AI/LLM integration (Claude, OpenAI), full-stack web development
+- **Secondary:** Python, GraphQL, Docker, Rust, testing frameworks (Jest, Mocha), system design, performance optimization
+- **Domain:** Citizen-facing web platforms, government digital services, content management systems, AI-driven automation
+- **Software:** React, Next.js, Zustand, Redux, Node.js, Express.js, Nest.js, Laravel, PostgreSQL, MongoDB, Docker, Git, Jest, Mocha
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Master Class TypeScript** – Microsoft – completed 2024
+- **Back End Development and APIs** – freeCodeCamp – completed 2023
+- **JavaScript Algorithms and Data Structures** – freeCodeCamp – completed 2023
+- **Introduction to Redis Data Structures** – Redis University – completed 2023
+- **Master Class Node.js with Express.js** – completed 2023
 
-### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
-
-### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+### Independent Projects
+- **PearOS ISO** (328+ stars) - Fixed cross-distro build failures for Arch-based distros
+- **SQL Studio** (3.7k+ stars) - Optimized React frontend for Rust-powered SQL explorer
+- **PulsarOS** (Contributor) - Built core apps in Rust/React/Tauri/GTK4
+- **PulsarOS Website** (Owner & Tech Lead) - Built landing page with Astro, Tailwind CSS, TypeScript
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Results-Driven Builder:** Creative, adaptable, autonomy-focused professional who thrives on delivering high-impact digital solutions and continuous learning
+- **Strengths:** End-to-end ownership, technical communication, adaptability, problem-solving initiative, mentoring through code reviews
+- **Growth areas:** Detail-oriented planning, mentoring at scale
+- **Thrives in:** Autonomous environments with clear ownership, collaborative cross-functional teams, visible impact, learning-oriented cultures, remote/flexible settings
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building scalable, high-impact digital products (especially citizen-facing or AI-driven)
+- Integrating AI/LLM capabilities into production systems
+- Architectural decision-making and technical leadership
+- Optimizing performance and improving user experience
+- Continuous learning and emerging technologies
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- **Primary:** Tech startups, govtech/citizen-facing platforms, AI-driven companies
+- **Secondary:** Fintech, productivity tools, open-source ecosystems
+- **Role types:** Senior Frontend/Full-Stack Developer, AI/LLM Integration Engineer, Technical Lead
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Pure legacy maintenance without evolution or learning
+- Highly structured/hierarchical management or micromanagement
+- Isolated work (no cross-functional collaboration)
+- Lack of remote work flexibility
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

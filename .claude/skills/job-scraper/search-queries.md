@@ -12,14 +12,14 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 
 ## Search Sites
 
-Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+Primary (your market's job boards):
+- **linkedin.com/jobs** - LinkedIn job listings; also covered by `linkedin-search` CLI
+- **github.com/jobs** - GitHub job board (tech-heavy)
+- **wellfound.com** - Startup jobs (good for early-stage tech roles)
+- **ycombinator.com/jobs** - Y Combinator startup jobs
 
 Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+- Direct Google searches with `site:` filters for target tech companies
 
 ## Query Categories
 
@@ -27,54 +27,62 @@ Queries are grouped by priority. Write **each category in every language from yo
 
 **Organize by function, not job title.** The same underlying work carries different titles across companies and markets (a "Data Scientist" role at one employer may be posted as "Insights Analyst" or "Data Consultant" at another). Name each priority category after the function it covers, and list several plausible job titles as query variants within that category rather than betting an entire priority tier on one exact title string.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Frontend & Full-Stack Development
 
-These match your strongest and most desired career direction.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_2]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+These match your strongest and most desired career direction (React, TypeScript, Node.js).
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:linkedin.com/jobs "Frontend Developer" remote
+site:linkedin.com/jobs "Full-Stack Developer" remote React
+site:linkedin.com/jobs "Senior Frontend Engineer" React TypeScript
+site:linkedin.com/jobs "Full-Stack Engineer" Node.js PostgreSQL
+site:wellfound.com "Frontend Developer" remote
+site:wellfound.com "Full-Stack Engineer" React
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: AI/LLM Integration & Generative AI
 
-Adjacent roles you could pivot into.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+These match your growing expertise in Claude and OpenAI integrations.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:linkedin.com/jobs "AI Integration" engineer remote
+site:linkedin.com/jobs "LLM" engineer remote TypeScript
+site:linkedin.com/jobs "Generative AI" developer
+site:linkedin.com/jobs "Claude API" OR "OpenAI API"
+site:wellfound.com "AI Engineer" remote
+site:github.com/jobs "AI" React Node.js
+```
+
+### Priority 3: Citizen-Facing & Government Services
+
+Adjacent roles matching your govtech/public sector experience.
+
+```
+site:linkedin.com/jobs "civic tech" OR "govtech" developer
+site:linkedin.com/jobs "citizen-facing" platform engineer
+site:linkedin.com/jobs "government" digital services React
+site:linkedin.com/jobs "public sector" technology remote
+```
+
+### Priority 4: Broader Technical & Startup Focus
+
+Wider net for general senior/technical roles in high-growth companies.
+
+```
+site:linkedin.com/jobs "Senior Engineer" React remote
+site:linkedin.com/jobs "TypeScript" developer remote
+site:wellfound.com "Engineer" remote funded
+site:ycombinator.com/jobs "engineer" remote React
+site:linkedin.com/jobs "technical architect" remote
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+When evaluating results, verify job location matches remote work requirement:
+- **Ideal:** Fully remote, anywhere
+- **Acceptable:** Remote-first/remote-friendly with occasional office
+- **Borderline:** Remote but requires monthly/quarterly on-site in specific timezone (EST/CST)
+- **Too far:** Requires daily commute or strict on-site (Dominican Republic only)
 
 ## Language Filter
 

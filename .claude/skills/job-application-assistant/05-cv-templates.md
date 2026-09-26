@@ -59,7 +59,7 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Victor Rosario - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -69,13 +69,13 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
 \usepackage{import}
 
 % Personal data
-\name{[FIRST_NAME]}{[LAST_NAME]}
+\name{Victor}{Rosario}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
-\address{[YOUR_ADDRESS]}{}{}
-\phone[mobile]{[YOUR_PHONE]}
-\email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\address{Dominican Republic}{}{}
+\phone[mobile]{+1 849 753-5677}
+\email{hello@victorrosario.dev}
+\extrainfo{\href{https://www.linkedin.com/in/victor-j-rosario-v}{LinkedIn}, \href{https://github.com/Victor1890}{GitHub}}
 
 \begin{document}
 \makecvtitle
@@ -137,11 +137,14 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Frontend / Full-Stack Developer roles:**
+> Senior software engineer with 6+ years of experience building scalable, production-grade web applications. Proven track record of owning features end-to-end—from planning and architecture through deployment and maintenance—using React, TypeScript, Node.js, and PostgreSQL. Strong focus on clean architecture, system reliability, performance optimization, and test-driven development. Recently focused on integrating AI/LLM capabilities (Claude, OpenAI) to automate workflows and reduce manual user effort by 40%+.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Citizen-Facing / Government Digital Services roles:**
+> Senior software engineer specializing in citizen-facing web platforms and government digital services. 6+ years of experience designing and implementing large-scale, scalable solutions that streamline user access to digital services. Expertise in React and modern frontend architectures, complemented by strong full-stack capabilities (Node.js, PostgreSQL). Proven ability to collaborate across multidisciplinary teams, translate complex requirements into modular components, and deliver mission-critical systems serving thousands of concurrent users.
+
+**For AI/LLM Integration roles:**
+> Full-stack engineer with deep expertise in integrating generative AI and LLM capabilities into production systems. 6+ years of JavaScript/TypeScript development, complemented by 2+ years of hands-on AI integration experience (Claude API, OpenAI). Skilled at designing prompt engineering strategies, implementing streaming responses, orchestrating complex AI workflows, and optimizing for performance and cost efficiency. Recent achievements include automating content generation and reducing manual workload by 40-50% through intelligent AI-driven processes.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

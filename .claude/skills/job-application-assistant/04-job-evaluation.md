@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** React, TypeScript, JavaScript, Node.js, PostgreSQL, Next.js, REST APIs, AI/LLM integration (Claude, OpenAI), full-stack web development, frontend architecture
+**Moderate match areas:** GraphQL, Python, Docker, testing frameworks (Jest, Mocha), Rust, CI/CD, system design, performance optimization
+**Weak match areas:** Mobile development (React Native/Swift/Kotlin), data science/ML (limited numpy/pandas/scikit-learn), C++ systems programming, DevOps infrastructure-as-code
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Frontend development (React), full-stack web applications, citizen-facing platforms, content management systems, AI/LLM feature integration, performance optimization, architectural decision-making
+**Moderate:** Backend API development (Node.js), database design and optimization, DevOps/deployment, team mentorship through code reviews, open-source contribution, VR/AR (limited), project management
+**Entry-level:** Mobile development, data science/ML roles, embedded systems, cloud infrastructure engineering
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -107,14 +107,16 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Build scalable, high-impact digital products (especially citizen-facing or government services)
+- Deepen expertise in AI/LLM integration and prompt engineering
+- Grow into architectural decision-making roles and technical leadership
+- Maintain autonomy and ownership of features/systems
+- Work on problems that improve user experience and operational efficiency
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: Building from technical planning through deployment, integrating new technologies (especially AI), optimizing performance, architectural decisions, mentoring through code reviews, solving user-facing problems
+- Tasks that drain: Pure maintenance on legacy systems, highly structured/hierarchical environments, unclear requirements, isolated work without cross-functional collaboration
+- Non-task factors: Autonomous work environment, collaborative cross-functional teams, technical leadership valuing input, learning culture, remote/flexible options
 
 **Life situation alignment:** Consider personal constraints:
 - **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
